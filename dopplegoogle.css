@@ -12,24 +12,6 @@ body {
     font: sans-serif;
 }
 
-.one {
-    text-decoration-color: "#4285f4";
-}
-.span2 {
-    color="#d62d20";
-}
-.span3 {
-    color="#ffa700";
-}
-.span4 {
-    color="#4285f4";
-}
-.span5 {
-    text-decoration-color: "#008744";
-}
-.span6 {
-    color="#d62d20";
-}
 
 .button1
 {
@@ -79,3 +61,23 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+#one {
+    text-decoration-color: "#4285f4";
+}
+#two {
+    color="#d62d20";
+}
+#three {
+    color="#ffa700";
+}
+#four {
+    color="#4285f4";
+}
+#five {
+    text-decoration-color: "#008744";
+}
+#six {
+    color="#d62d20";
+}
+
