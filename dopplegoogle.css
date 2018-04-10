@@ -1,0 +1,81 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.span {
+    text-align: center;
+    font-size: large;
+    font: sans-serif;
+}
+
+.one {
+    text-decoration-color: "#4285f4";
+}
+.span2 {
+    color="#d62d20";
+}
+.span3 {
+    color="#ffa700";
+}
+.span4 {
+    color="#4285f4";
+}
+.span5 {
+    text-decoration-color: "#008744";
+}
+.span6 {
+    color="#d62d20";
+}
+
+.button1
+{
+    background-color:"#4285F4";
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.google-search
+{
+    padding: 8px 173px;
+}
+.google-search: focus
+{
+    box-shadow:silver 0 2px 10px; 
+    border-color: silver;
+}
+.google-form .btn-group
+{
+    padding: 20px 0;
+}
+.btn-group>.btn
+{
+    border-radius: 0;
+    margin: 0 10px;
+}
+.btn
+{
+    background-color: #f2f2f2;
+    color: #757575;
+    font-weight: 900;
+} 
+
+
+.footers{
+    width: 100px;
+}
+
+.footers > a {
+    display: block;
+    margin: 0 auto;
+}
