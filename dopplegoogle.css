@@ -44,9 +44,9 @@ a {
 }
 
 .google-search {
-    padding: 8px 173px;
+    padding: 8px 15px;
     resize: horizontal;
-    width: 250px;
+    width: 550px;
 }
 
 input:active {
@@ -79,7 +79,7 @@ input:focus {
 
 .btn-group>.btn {
     border-radius: 2;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .btn {
@@ -93,6 +93,11 @@ input:focus {
     padding: 12px 10px;
 }
 
+a.btn {
+    color: #757575;
+    opacity: 1;
+}
+
 .btn:hover {
     background-color: #f2f2f2;
     color: #000000;
@@ -102,10 +107,7 @@ input:focus {
     text-decoration: none;
     padding: 12px 10px;
     border-radius: 2px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
+    border: 1px solid #D8D8D8;
 } 
 
 .container {
@@ -192,10 +194,4 @@ input:focus {
     font-size: 13px;
     border: 1px solid #4285f4;
     cursor: pointer;
-}
-
-#mic {
-    width: 30px;
-    height: 30px;
-    background-color: #f2f2f2;
 }
