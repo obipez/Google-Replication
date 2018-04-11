@@ -1,11 +1,39 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: arial, sans-serif;
     font-size: small;
     margin:0;
     padding:0;
-    height:100%;
 }
 
+a 
+{
+    text-decoration: none;
+}
+.container .row
+{
+    text-align: center;
+    margin: auto;
+}
+.header
+{
+    height: 90px;
+}
+.container .logo
+{
+    margin-top: 100px;
+}
+.text-left
+{
+    float: left;
+}
+.text-right
+{
+    float: right;
+}
 .google-search
 {
     padding: 8px 173px;
@@ -19,63 +47,103 @@ body {
 {
     margin: auto;
 }
+.form-control
+{
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
 .google-form .btn-group
 {
     padding: 20px 0;
 }
+
 .btn-group>.btn
 {
     border-radius: 0;
     margin: 0 10px;
 }
+
 .btn
 {
     background-color: #f2f2f2;
     color: #757575;
     font-weight: 900;
+    font: bold 14px Arial sans-serif;
+    text-decoration: none;
+    padding: 12px 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+
 } 
 
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 40px;
+}
+
+.footer
+{
+    background-color: #f2f2f2;
+}
 
 .footers{
     width: 100px;
 }
 
-.footers > a {
+.footer > a {
     display: block;
     margin: 0 auto;
 }
 
+.footer a
+{
+    margin: 0 auto;
+    padding: 10px;
+    color: #222;
+}
 
+.header a
+{
+    margin: 0 auto;
+    padding: 10px;
+    color: #222;
+}
+
+.logo span
+{
+    font-size: 100px;
+}
 
 #one {
     color: #4285f4;
-    font-size: 550%;
-    font-weight: bold;
 }
 #two {
     color: #d62d20;
-    font-size: large;
-    font-weight: bold;
 }
 #three {
     color: #ffa700;
-    font-size: large;
-    font-weight: bold;
 }
 #four {
     color: #4285f4;
-    font-size: large;
-    font-weight: bold;
 }
 #five {
     color: #008744;
-    font-size: large;
-    font-weight: bold;
 }
 #six {
     color: #d62d20;
-    font-size: large;
-    font-weight: bold;
 }
 
 
@@ -91,3 +159,4 @@ body {
     margin: 4px 2px;
     cursor: pointer;
 }
+
