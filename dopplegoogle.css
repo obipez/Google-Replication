@@ -14,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    opacity: .75;
 }
 .container .row {
     text-align: center;
@@ -28,6 +29,12 @@ a {
 .text-left {
     float: left;
 }
+
+.text-right i 
+{
+    vertical-align: middle;
+}
+
 .text-right {
     float: right;
 }
@@ -99,7 +106,9 @@ input:focus {
 }
 
 .footers {
-    width: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .footer > a {
@@ -111,6 +120,7 @@ input:focus {
     margin: 0 auto;
     padding: 10px;
     color: #666;
+    opacity: 1;
 }
 
 .header a {
