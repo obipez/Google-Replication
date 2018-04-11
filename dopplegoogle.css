@@ -1,5 +1,8 @@
 html, body {
     height: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 body {
@@ -9,41 +12,45 @@ body {
     padding:0;
 }
 
-a 
-{
+a {
     text-decoration: none;
 }
-.container .row
-{
+.container .row {
     text-align: center;
     margin: auto;
 }
-.header
-{
+.header {
     height: 90px;
 }
-.container .logo
-{
+.container .logo {
     margin-top: 100px;
 }
-.text-left
-{
+.text-left {
     float: left;
 }
-.text-right
-{
+.text-right {
     float: right;
 }
-.google-search
-{
+
+.google-search {
     padding: 8px 173px;
+    resize: horizontal;
+    width: 250px;
 }
-.google-form
-{
+
+input:active {
+    width: auto;   
+}
+
+input:focus {
+    min-width: 200px;
+}
+
+.google-form {
     margin: auto;
 }
-.form-control
-{
+
+.form-control {
     text-align: left;
     font-size: 16px;
     line-height: 1.5;
@@ -53,19 +60,17 @@ a
     border: 1px solid #ced4da;
     border-radius: 4px;
 }
-.google-form .btn-group
-{
+
+.google-form .btn-group {
     padding: 20px 0;
 }
 
-.btn-group>.btn
-{
+.btn-group>.btn {
     border-radius: 0;
     margin: 0 10px;
 }
 
-.btn
-{
+.btn {
     background-color: #f2f2f2;
     color: #757575;
     font-weight: 900;
@@ -89,12 +94,11 @@ a
     height: 40px;
 }
 
-.footer
-{
+.footer {
     background-color: #f2f2f2;
 }
 
-.footers{
+.footers {
     width: 100px;
 }
 
@@ -103,22 +107,19 @@ a
     margin: 0 auto;
 }
 
-.footer a
-{
+.footer a {
     margin: 0 auto;
     padding: 10px;
     color: #222;
 }
 
-.header a
-{
+.header a {
     margin: 0 auto;
     padding: 10px;
     color: #222;
 }
 
-.logo span
-{
+.logo span {
     font-size: 100px;
 }
 
@@ -142,9 +143,11 @@ a
 }
 
 #but1 {
+    background-color: #4285f4;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding-left: 12px;
+    padding-right: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
