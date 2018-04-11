@@ -88,7 +88,7 @@ input:focus {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto -40px;
 }
 .footer, .push {
     height: 40px;
@@ -110,7 +110,7 @@ input:focus {
 .footer a {
     margin: 0 auto;
     padding: 10px;
-    color: #222;
+    color: #666;
 }
 
 .header a {
@@ -140,6 +140,10 @@ input:focus {
 }
 #six {
     color: #d62d20;
+}
+
+#app {
+    opacity: .55;
 }
 
 #but1 {
