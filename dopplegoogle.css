@@ -94,7 +94,7 @@ input:focus {
 
 .btn:hover {
     background-color: #f2f2f2;
-    color: #757575;
+    color: #000000;
     font-weight: 900;
     font: bold 13px Arial, sans-serif;
     opacity: 1;
