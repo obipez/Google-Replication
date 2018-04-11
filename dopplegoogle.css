@@ -88,6 +88,7 @@ input:focus {
     font-weight: 900;
     font: bold 13px Arial, sans-serif;
     border-radius: 2px;
+    border-style: none;
     text-decoration: none;
     padding: 12px 10px;
 }
@@ -191,4 +192,10 @@ input:focus {
     font-size: 13px;
     border: 1px solid #4285f4;
     cursor: pointer;
+}
+
+#mic {
+    width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
 }
