@@ -15,6 +15,10 @@ body {
     box-shadow:silver 0 2px 10px; 
     border-color: silver;
 }
+.google-form
+{
+    margin: auto;
+}
 .google-form .btn-group
 {
     padding: 20px 0;
