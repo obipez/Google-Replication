@@ -78,7 +78,7 @@ input:focus {
 }
 
 .btn-group>.btn {
-    border-radius: 0;
+    border-radius: 2;
     margin: 0 10px;
 }
 
@@ -87,16 +87,24 @@ input:focus {
     color: #757575;
     font-weight: 900;
     font: bold 13px Arial, sans-serif;
-/*    not sure fi this does anything*/
-/*    border-radius: 2px;*/
+    border-radius: 2px;
     text-decoration: none;
     padding: 12px 10px;
-/*
+}
+
+.btn:hover {
+    background-color: #f2f2f2;
+    color: #757575;
+    font-weight: 900;
+    font: bold 13px Arial, sans-serif;
+    opacity: 1;
+    text-decoration: none;
+    padding: 12px 10px;
+    border-radius: 2px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
-*/
 } 
 
 .container {
