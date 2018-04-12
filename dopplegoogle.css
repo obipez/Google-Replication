@@ -1,6 +1,5 @@
 html, body {
     height: 100%;
-    /*    margin-top: 3px;*/
 }
 
 body {
@@ -47,6 +46,7 @@ a {
     padding: 8px 15px;
     resize: horizontal;
     width: 550px;
+    position: relative;
 }
 
 input:active {
@@ -55,7 +55,7 @@ input:active {
 }
 
 input:focus {
-    min-width: 200px;
+    min-width: 550px;
 }
 
 .google-form {
@@ -194,4 +194,19 @@ a.btn {
     font-size: 13px;
     border: 1px solid #4285f4;
     cursor: pointer;
+}
+
+#mic {
+    display:inline-block;
+    background-color: #ffffff;
+    height: 28px;
+    padding: 5px;
+    align-content: center;
+}
+
+#micbut {
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    padding-right: px;
 }
