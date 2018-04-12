@@ -204,10 +204,6 @@ a.btn {
     cursor: pointer;
 }
 
-#search_wrapper {
-    position: relative;
-}
-
 #mic {
     display: inline-block;
     background-color: #ffffff;
