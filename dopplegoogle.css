@@ -46,7 +46,6 @@ a {
     padding: 8px 15px;
     resize: horizontal;
     width: 500px;
-    position: relative;
 }
 
 input:active {
@@ -205,17 +204,25 @@ a.btn {
     cursor: pointer;
 }
 
+#search_wrapper {
+    position: relative;
+}
+
 #mic {
-    display:inline-block;
+    display: inline-block;
     background-color: #ffffff;
-    height: 21px;
-    padding-top: 6px;
+    width: 15px;
+    padding-top: 9px;
+    padding-bottom: 1px;
     align-content: center;
     cursor: pointer;
 }
 
 #micbut {
     background-color: #ffffff;
+    border-radius: 1px;
     border: none;
+    padding-bottom: 6px;
+    padding-right: 10px;
     position: absolute;
 }
